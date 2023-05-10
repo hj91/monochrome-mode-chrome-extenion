@@ -1,0 +1,11 @@
+In a Chrome extension, permissions must be declared in the manifest file, and they inform the browser what the extension has access to. The `activeTab`, `scripting`, and `storage` permissions have specific uses:
+
+1. `activeTab`: This permission gives temporary access to the currently active tab when the user interacts with the extension's browser action (like clicking on the extension's icon in the toolbar). This is a more secure and privacy-friendly way to request tab access compared to the `tabs` permission, which provides access to all the user's tabs. In this extention switching extension, you need this permission to know which tab to apply or remove the grayscale filter from.
+
+2. `scripting`: This permission allows the extension to programmatically inject scripts or CSS into webpages. In this extention, this permission to inject CSS that applies a grayscale filter to the current page, or to remove that CSS when the grayscale mode is turned off.
+
+3. `storage`: This permission allows the extension to use the chrome.storage API to store, retrieve, and track changes to user data. Currently no data is collected.
+
+Each of these permissions enables important functionality in your grayscale mode switching extension, and they all do so in a way that respects the user's privacy by requesting only the minimum necessary access to the user's data and browsing activity.
+
+These permissions are required for extention to function properly and no user data is collected,stored,analysed by maker of this extention
