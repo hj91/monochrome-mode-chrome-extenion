@@ -1,0 +1,33 @@
+
+## Privacy Policy for Monochrome Mode Switch
+
+### Last updated: 11TH April 2023
+
+This Privacy Policy describes how the Monochrome Mode Switch Chrome extension (the "Extension") uses information when you interact with it.
+
+**Information We Collect**
+
+The Extension does not collect or store any personal or sensitive data from its users. We do not require you to provide any personal information to use the Extension, and we do not collect, store, or share any data related to your browsing history.
+
+**Permissions Used by the Extension**
+
+To function correctly, the Extension requires certain permissions:
+
+- "activeTab": This permission allows the Extension to interact with the current active tab when you use the Extension's features. It does not allow the Extension to view or record your browsing history on other tabs.
+
+- "scripting": This permission allows the Extension to programmatically change the appearance of websites by injecting CSS. It does not enable the collection or storage of any data from the websites you visit.
+
+- "storage": This permission allows the Extension to save your settings between browsing sessions. It does not allow the Extension to store any personal data or information about the websites you visit.
+
+**Changes to This Privacy Policy**
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+
+**Notice**
+
+The use of information received from Google APIs will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements.
+
+**Contact Us**
+
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [harshad@bufferstack.io].
+
